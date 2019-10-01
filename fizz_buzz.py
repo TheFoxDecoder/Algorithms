@@ -6,8 +6,8 @@ Algorithm:-  Fizz and Buzz refer to any number that's a multiple of 3 and 5 resp
    '''             
 import array as arr
 
-#number = arr.array('i'[1,2,3,4,5,6,7,8,9,10])
-'''3 is fizz 5 is buzz'''
+
+#3 is fizz 5 is buzz
 number = [1,2,3,4,5,6,7,8,9,10]
 
 for num in number:
