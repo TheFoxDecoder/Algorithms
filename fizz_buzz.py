@@ -6,25 +6,21 @@ Algorithm:-  Fizz and Buzz refer to any number that's a multiple of 3 and 5 resp
    '''             
 import array as arr
 
-
-#3 is fizz 5 is buzz
-number = [] # Creating empty list
-n = int(input("Enter the number of Elements")) # inputting number of elements
-
-#Using for loop getting use inputs
-for i in range(0, n): 
-    elements = int(input()) 
-  
-    number.append(elements) # adding the element 
-
-
-#Calculation
-for num in number:
+number=[]
+n = int(input("Enter the number of elements: "))
+for i in range(0,n):
+    element= int(input("Enter the element: "))
+    num = int(element) 
+    
     if (num % 3 == 0):
-        print("%d Fizz"%num)
+            print("%d \tFizz"%num)
     elif (num %5 == 0):
-        print("%d Buzz"%num)
+            print("%d \tBuzz"%num)
     else :
-        print(num)    
+            print("%d \tits not a value"%num)     
+
+   
 
 
+        #3 is fizz 5 is buzz
+#number = [1,2,3,4,5,6,7,8,9,10]
