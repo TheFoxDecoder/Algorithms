@@ -8,8 +8,17 @@ import array as arr
 
 
 #3 is fizz 5 is buzz
-number = [1,2,3,4,5,6,7,8,9,10]
+number = [] # Creating empty list
+n = int(input("Enter the number of Elements")) # inputting number of elements
 
+#Using for loop getting use inputs
+for i in range(0, n): 
+    elements = int(input()) 
+  
+    number.append(elements) # adding the element 
+
+
+#Calculation
 for num in number:
     if (num % 3 == 0):
         print("%d Fizz"%num)
